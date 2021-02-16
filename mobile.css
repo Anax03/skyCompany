@@ -1,0 +1,63 @@
+nav{
+    flex-direction: column;
+    align-items: center;
+}
+
+#diva{
+    top: 99px;
+}
+
+.change{
+    display: flex;
+    
+
+}
+
+
+    
+    .all{
+        
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo1 , .logo2 , .logo3 , .logo4 , .logo5{
+    
+        padding: 3rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .loge{
+        flex-direction: column;
+        
+    }
+
+    #who{
+        flex-direction: column;
+    }
+
+    .change{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    @media (max-width:300px){
+        .lista{
+            flex-direction: column;
+        }
+
+        .lista li{
+            margin-top: 1rem;
+        }
+        .logo{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
